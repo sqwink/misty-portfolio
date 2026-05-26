@@ -1,0 +1,30 @@
+:root {
+  --celadon: #ace1af;
+}
+body {
+  margin: 0;
+}
+h1 {
+  color: #265847;
+  font-size: 36px;
+  font-family: "Bodoni MT", serif;
+  font-style: regular;
+}
+h2 {
+  color: #c64b3f;
+  font-size: 24px;
+  font-family: "Sitka Subheading", serif;
+  font-style: italic;
+}
+p {
+  color: #265847;
+  font-size: 18px;
+  font-family: "Sitka Display", serif;
+  font-style: regular;
+}
+#sub {
+  color: #52bc98;
+  font-size: 14px;
+  font-family: "Sitka Display", serif;
+  font-style: regular;
+}
