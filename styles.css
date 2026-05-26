@@ -16,6 +16,14 @@ h2 {
   font-family: "Sitka Subheading", serif;
   font-style: italic;
 }
+h3 {
+  color: #c64b3f;
+  font-size: 24px;
+  font-family: "Sitka Subheading", serif;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
 p {
   color: #265847;
   font-size: 18px;
