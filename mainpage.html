@@ -2,8 +2,6 @@
 <head>
 <link rel="stylesheet" href="styles.css">
 
-</style>
-</head>
 <body style="background-color:var(--celadon);">
 <!-- used flexbox here, bc its better for multiple device layout -->
  <html>
@@ -12,13 +10,10 @@
 .container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.3);
   margin: 5px;
   padding: 0px;
   min-width: 0px;
-  flex-basis: 1 1 auto;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -27,17 +22,15 @@
 }
 
 .container div {
-  background-color: #ffffff;
   flex-basis: 1 1 0px;
-  width: 0px;
+  background-color: white;
+  width: 200px;
   margin: 10px;
-  height: 40px;
-  min-height: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 100px;
   padding-right: 100px;
-  text-align: left;
+  text-align: center;
 }
 </style>
 </head>
